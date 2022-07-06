@@ -13,6 +13,7 @@
 ![LSTM_50_8](https://user-images.githubusercontent.com/80392139/177491899-f5c4850c-1508-4d97-ab12-a8470700c806.png)
 ![LSTM_50_9](https://user-images.githubusercontent.com/80392139/177491901-48d96d1a-3bf2-4c35-b759-d3b2804e414e.png)
 
+_____________________________________________________________________________________________________________________
 #### BIDIRECTIONAL 
 
 ![LSTMBD_50_1](https://user-images.githubusercontent.com/80392139/177492192-6c647681-ca0f-4cd6-bae1-797e9f2ec829.png)
@@ -24,3 +25,52 @@
 ![LSTMBD_50_7](https://user-images.githubusercontent.com/80392139/177492219-576e49a6-1010-4e3b-a069-0830d0a5b74e.png)
 ![LSTMBD_50_8](https://user-images.githubusercontent.com/80392139/177492221-a409ba2c-0ba5-4c50-a6c9-88dbcc58e890.png)
 ![LSTMBD_50_9](https://user-images.githubusercontent.com/80392139/177492225-98d37d8e-46f6-4893-baaa-6379832797e3.png)
+
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+### MAX_LENGTH : 100
+#### NOT BIDIRECTIONAL 
+![LSTM_100_1](https://user-images.githubusercontent.com/80392139/177493203-eb3aa84d-e171-4c2a-828f-33321bc4a75e.png)
+![LSTM_100_2](https://user-images.githubusercontent.com/80392139/177493321-29c88813-9560-4129-b935-b95913a275c1.png)
+
+_____________________________________________________________________________________________________________________
+#### BIDIRECTIONAL 
+
+![LSTMBD_100_1](https://user-images.githubusercontent.com/80392139/177493227-05d550f6-a5de-435d-87d1-bbcd1d505489.png)
+![LSTMBD_100_2](https://user-images.githubusercontent.com/80392139/177493349-853d9f71-9c75-437b-9efb-5d020fd23e17.png)
+
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+
+## RNN ATTEMPTS
+### MAX_LENGTH: 50 
+#### NOT BIDIRECTIONAL
+![RNN_50_1](https://user-images.githubusercontent.com/80392139/177495052-f41be85f-b958-4fb2-aaf8-8d9777450957.png)
+![RNN_50_2](https://user-images.githubusercontent.com/80392139/177495080-583231bb-1e1b-49ac-85ab-1f24953f5993.png)
+![RNN_50_3](https://user-images.githubusercontent.com/80392139/177495086-11020f16-36ba-4aa6-9d42-5d060302ea85.png)
+![RNN_50_4](https://user-images.githubusercontent.com/80392139/177495090-f649e70d-d1bb-4703-b218-e65013329894.png)
+![RNN_50_5](https://user-images.githubusercontent.com/80392139/177495093-7fb0baf8-7d84-4f21-a380-8ba8e52f99c1.png)
+![RNN_50_6](https://user-images.githubusercontent.com/80392139/177495096-feb1cb5e-694d-4813-a28a-0075d56a823f.png)
+
+_____________________________________________________________________________________________________________________
+#### BIDIRECTIONAL 
+
+![RNNBD_50_1](https://user-images.githubusercontent.com/80392139/177495216-8c8a1ce3-6e60-465f-ac31-a82e90a40dbb.png)
+![RNNBD_50_2](https://user-images.githubusercontent.com/80392139/177495234-427cd37b-97bb-4e60-b4eb-81ac0d16369b.png)
+![RNNBD_50_3](https://user-images.githubusercontent.com/80392139/177495237-ea6b459b-710c-4ef3-add6-e41dfe8ef1fe.png)
+![RNNBD_50_4](https://user-images.githubusercontent.com/80392139/177495239-e2ba74be-2e5b-4bd7-9709-d68e9dc2c310.png)
+![RNNBD_50_5](https://user-images.githubusercontent.com/80392139/177495242-72264e9d-e0a5-4e5c-9e20-a4de072341e4.png)
+![RNNBD_50_6](https://user-images.githubusercontent.com/80392139/177495246-46b56d71-434a-4ec1-acb2-f2fb2eb8779b.png)
+
+### MAX_LENGTH: 100
+#### NOT BIDIRECTIONAL
+![RNN_100_1](https://user-images.githubusercontent.com/80392139/177495404-c0f04603-5f97-4bb4-8106-4332ec995d1b.png)
+![RNN_100_2](https://user-images.githubusercontent.com/80392139/177495453-8bdcb687-cecb-4197-956b-902de8a7d245.png)
+
+_____________________________________________________________________________________________________________________
+#### BIDIRECTIONAL
+
+![RNNBD_100_1](https://user-images.githubusercontent.com/80392139/177495488-ea7cca5d-138e-4303-bdce-a31f888fb836.png)
+![RNNBD_100_2](https://user-images.githubusercontent.com/80392139/177495547-8073e477-49d5-4878-92ad-88a3ecb4fbde.png)
+
