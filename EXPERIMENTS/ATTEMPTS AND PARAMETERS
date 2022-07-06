@@ -1,0 +1,34 @@
+```
+RNN_ATTEMPT={1:{'count': 1, 'comment': "dropout 0.3 and no regularisation"},
+        2 : {'count': 2, 'comment': "dropout 0.3 , regularisation 0.001"},
+        3 : {'count': 3, 'comment': "dropout 0.6, no regularisation"},
+        4 : {'count': 4, 'comment': "dropout 0.6,no regularisation, change lr"},
+        5 : {'count': 5, 'comment': "dropout 0.3, no reg, change lr"},
+        6 : {'count': 6, 'comment': "dropout 0.3, no reg, num_layers=3"}}
+
+LSTM_ATTEMPT={1:{'count': 1, 'comment': "dropout 0.3 and no regularisation"},
+        2 : {'count': 2, 'comment': "dropout 0.3 , regularisation 0.001"},
+        3 : {'count': 3, 'comment': "dropout 0.6,no regularisation"},
+        4 : {'count': 4, 'comment': "dropout 0.6, regularisation 0.001"},
+        5 : {'count': 5, 'comment': "dropout 0.3, no regularisation, num_layers=1"},
+        6 : {'count': 6, 'comment': "dropout 0.3, regularisation, num_layers=1"},
+        7 : {'count': 7, 'comment': "dropout 0.3, no regulatization, num_layers=2, hidden_size=64"},
+        8 : {'count': 8, 'comment': "dropout 0.3, reg, num_layers=2, hid_size=64"},
+        9 : {'count': 9, 'comment': "dropout 0.3, reg, num_layers=1, hid_size=64"}
+```
+```
+BATCH_SIZE = 32
+TRAIN_SIZE, VALIDATION_SIZE= 17171, 5724
+hidden_size = 64 #was 128 in the attempts where I haven't mentioned hidden size
+input_size = 200
+num_layers= 2
+num_classes=1 
+sequence_length = 100
+
+#LR history RNN: 0.005
+rnn_LR = 0.01
+lstm_LR = 0.005
+EPOCHS =10
+
+BERT_EPOCHS = 4
+```
